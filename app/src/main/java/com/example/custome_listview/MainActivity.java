@@ -23,11 +23,11 @@ public class MainActivity extends AppCompatActivity {
 
     public ArrayList<Movies> getArrayMovies(){
         ArrayList<Movies> movies=new ArrayList<>();
-        movies.add(new Movies("Gully Boy","5/5","New Movie",imgid ));
-        movies.add(new Movies("Big Bull","4.0/5","New Movie",imgid));
-        movies.add(new Movies("Baaghi","3.0/5","New Movie",imgid));
-        movies.add(new Movies("Kabir Singh","4.5/5","New Movie",imgid));
-        movies.add(new Movies("Laxmii","4/5","New Movie",imgid));
+        movies.add(new Movies("Gully Boy","5/5","Story Oriented",imgid ));
+        movies.add(new Movies("Big Bull","4.0/5","Harshad Mehta's life",imgid));
+        movies.add(new Movies("Baaghi","3.0/5","Love And Action",imgid));
+        movies.add(new Movies("Kabir Singh","4.5/5","Love And Romance",imgid));
+        movies.add(new Movies("Laxmii","4/5","Comedy Horror",imgid));
         return movies;
     }
     @Override
