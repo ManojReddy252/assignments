@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         movies.add(new Movies("Kabir Singh","4.5/5","New Movie",imgid));
         movies.add(new Movies("Laxmii","4/5","New Movie",imgid));
         return movies;
-    } 
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
